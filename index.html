@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Baumshell Media | Clips, comedy &amp; AI chaos</title>
+<meta name="description" content="Baumshell Media: clips, comedy and AI chaos from Georgia. Home of Klaus von Baum. Follow on Instagram, TikTok, X and Facebook.">
+<meta name="theme-color" content="#1a472b">
+<link rel="canonical" href="https://baumshellmediatv.com/">
+
+<!-- Open Graph / social previews -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Baumshell Media">
+<meta property="og:title" content="Baumshell Media">
+<meta property="og:description" content="Clips, comedy &amp; AI chaos. Home of Klaus von Baum 🎩">
+<meta property="og:url" content="https://baumshellmediatv.com/">
+<meta property="og:image" content="https://baumshellmediatv.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Baumshell Media logo next to Klaus von Baum, an AI-generated aristocrat in a mustard suit, mid-dance">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@baumshellmedia">
+<meta name="twitter:title" content="Baumshell Media">
+<meta name="twitter:description" content="Clips, comedy &amp; AI chaos.">
+<meta name="twitter:image" content="https://baumshellmediatv.com/assets/og-image.jpg">
+
+<!-- Icons -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+<link rel="preload" as="image" href="assets/logo.webp" fetchpriority="high">
+
+<style>
+:root{
+  --green:#1a472b;      /* logo tree */
+  --green-2:#245c39;
+  --green-ink:#0f2c1a;
+  --cream:#fbfbf9;      /* logo background */
+  --ink:#111111;        /* logo wordmark */
+  --muted:#5a6660;
+  --gold:#d2a227;       /* Klaus's suit */
+  --radius:18px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--cream);color:var(--ink);
+  font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+.wrap{width:100%;max-width:1080px;margin:0 auto;padding:0 20px}
+
+/* Hero */
+.hero{padding:44px 0 28px;text-align:center}
+.logo{width:min(320px,82vw);margin:0 auto 22px}
+h1{font-size:clamp(2rem,8vw,3.4rem);line-height:1.05;margin:0 0 10px;letter-spacing:-.02em;color:var(--green-ink)}
+.tagline{font-size:clamp(1.1rem,4.4vw,1.45rem);margin:0;color:var(--muted);font-weight:500}
+.tagline em{font-style:normal;color:var(--green);font-weight:700}
+
+/* Social buttons */
+.links{display:grid;gap:12px;margin:28px auto 0;max-width:520px;padding:0;list-style:none}
+.btn{
+  display:flex;align-items:center;justify-content:center;gap:12px;
+  min-height:60px;padding:14px 22px;border-radius:999px;
+  background:var(--green);color:#fff;text-decoration:none;
+  font-weight:700;font-size:1.08rem;letter-spacing:.01em;
+  box-shadow:0 2px 0 var(--green-ink),0 8px 22px -12px rgba(26,71,43,.7);
+  transition:transform .12s ease,background .12s ease,box-shadow .12s ease;
+}
+.btn:hover{background:var(--green-2);transform:translateY(-1px)}
+.btn:active{transform:translateY(1px);box-shadow:0 1px 0 var(--green-ink)}
+.btn:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.btn svg{width:22px;height:22px;flex:none;fill:currentColor}
+.btn small{font-weight:500;opacity:.75;font-size:.9rem}
+
+/* Klaus */
+.klaus{margin:48px 0 0;background:var(--green);color:#fff;border-radius:var(--radius);overflow:hidden;
+  display:grid;box-shadow:0 20px 40px -24px rgba(15,44,26,.6)}
+.klaus figure{margin:0;background:#1d150c}
+.klaus img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.klaus .body{padding:24px 22px 26px}
+.eyebrow{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--green-ink);background:var(--gold);padding:4px 10px;border-radius:999px;margin-bottom:12px;align-self:flex-start}
+.klaus h2{margin:0 0 8px;font-size:clamp(1.6rem,6vw,2.2rem);line-height:1.1;font-family:Georgia,"Times New Roman",serif;font-weight:700}
+.klaus .quote{font-size:1.2rem;margin:0 0 14px;color:#f3e7c4}
+.klaus p{margin:0 0 10px}
+.ai-note{font-size:.82rem;opacity:.75;margin-top:14px!important}
+
+/* Merch + contact */
+.cards{display:grid;gap:16px;margin:20px 0 0}
+.card{background:#fff;border:1px solid #e6e8e4;border-radius:var(--radius);padding:24px 22px}
+.card h2{margin:0 0 6px;font-size:1.35rem;color:var(--green-ink)}
+.card p{margin:0;color:var(--muted)}
+.merch{border:2px dashed var(--gold);background:#fffbef}
+.merch .tag{display:inline-block;margin-top:12px;font-weight:800;color:#8a6a10;letter-spacing:.06em;text-transform:uppercase;font-size:.8rem}
+.mail{display:inline-block;margin-top:10px;font-weight:700;color:var(--green);font-size:1.08rem;word-break:break-all;text-decoration-thickness:2px;text-underline-offset:3px}
+
+footer{padding:36px 0 44px;text-align:center;color:var(--muted);font-size:.9rem}
+footer img{width:28px;margin:0 auto 8px;opacity:.9}
+
+/* Desktop */
+@media (min-width:820px){
+  .hero{padding:72px 0 36px}
+  .logo{width:380px}
+  .links{grid-template-columns:1fr 1fr;max-width:640px}
+  .klaus{grid-template-columns:1.35fr 1fr;align-items:stretch}
+  .klaus img{height:100%;aspect-ratio:auto;min-height:340px}
+  .klaus .body{padding:36px 34px;display:flex;flex-direction:column;justify-content:center}
+  .cards{grid-template-columns:1fr 1fr}
+}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+  <header class="hero">
+    <img class="logo" src="assets/logo.webp" width="720" height="191" alt="Baumshell Media logo: a play-button tree" fetchpriority="high">
+    <h1>Baumshell Media</h1>
+    <p class="tagline">Clips, comedy &amp; <em>AI chaos.</em></p>
+
+    <ul class="links" aria-label="Follow Baumshell Media">
+      <li><a class="btn" href="https://www.instagram.com/baumshellmedia/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 100 12.4 6.2 6.2 0 000-12.4zM12 16a4 4 0 110-8 4 4 0 010 8zm6.4-11.8a1.4 1.4 0 100 2.9 1.4 1.4 0 000-2.9z"/></svg>
+        Instagram <small>@baumshellmedia</small></a></li>
+      <li><a class="btn" href="https://www.tiktok.com/@baumshellmedia" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.6 6.7a4.8 4.8 0 01-3.8-4.2V2h-3.4v13.7a2.9 2.9 0 01-5.2 1.7 2.9 2.9 0 013.2-4.5V9.4a6.3 6.3 0 00-5.4 10.7 6.3 6.3 0 0010.8-4.4V8.7a8.2 8.2 0 004.8 1.5V6.8a4.8 4.8 0 01-1-.1z"/></svg>
+        TikTok <small>@baumshellmedia</small></a></li>
+      <li><a class="btn" href="https://x.com/baumshellmedia" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.2 2.3h3.4l-7.4 8.4 8.7 11.5h-6.8l-5.3-7-6.1 7H1.3l7.9-9L.9 2.3h7l4.8 6.4 5.5-6.4zm-1.2 17.9h1.9L6.8 4.2H4.8L17 20.2z"/></svg>
+        X <small>@baumshellmedia</small></a></li>
+      <li><a class="btn" href="https://www.facebook.com/baumshellmedia" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12a12 12 0 10-13.9 11.9v-8.4H7.1V12h3V9.4c0-3 1.8-4.7 4.5-4.7 1.3 0 2.7.2 2.7.2v3h-1.5c-1.5 0-2 .9-2 1.9V12h3.4l-.5 3.5h-2.9v8.4A12 12 0 0024 12z"/></svg>
+        Facebook <small>@baumshellmedia</small></a></li>
+      <!--
+        TODO: YouTube handle not confirmed yet. Replace HANDLE below, then uncomment this button.
+      <li><a class="btn" href="https://www.youtube.com/@HANDLE" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 00-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 00.5 6.2 31 31 0 000 12a31 31 0 00.5 5.8 3 3 0 002.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 002.1-2.1A31 31 0 0024 12a31 31 0 00-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+        YouTube</a></li>
+      -->
+    </ul>
+  </header>
+
+  <section class="klaus" aria-labelledby="klaus-title">
+    <figure>
+      <img src="assets/klaus-800.webp"
+           srcset="assets/klaus-800.webp 800w, assets/klaus-1280.webp 1280w"
+           sizes="(min-width:820px) 600px, 100vw"
+           width="1280" height="720" loading="lazy" decoding="async"
+           alt="Klaus von Baum, a mustachioed aristocrat in a mustard plaid three-piece suit, high-kicking in a marble palace hall (AI-generated image)">
+    </figure>
+    <div class="body">
+      <span class="eyebrow">Meet the Baron</span>
+      <h2 id="klaus-title">Klaus von Baum</h2>
+      <p class="quote">Klaus von Baum dances so you don't have to 🎩</p>
+      <p>Our original character: a deadpan European aristocrat with impeccable tailoring and questionable choreography.</p>
+      <p class="ai-note">Klaus von Baum is an AI-generated character. Any resemblance to real nobility is purely regrettable.</p>
+    </div>
+  </section>
+
+  <div class="cards">
+    <section class="card merch" aria-labelledby="merch-title">
+      <h2 id="merch-title">Merch coming soon 👕</h2>
+      <p>Tees, hats and Klaus-approved finery are in the works. Follow along so you don't miss the drop.</p>
+      <span class="tag">Stay tuned</span>
+    </section>
+    <section class="card" aria-labelledby="contact-title">
+      <h2 id="contact-title">Get in touch</h2>
+      <p>Collabs, licensing, press or just a good clip to share:</p>
+      <a class="mail" href="mailto:brandon@baumshellmediatv.com">brandon@baumshellmediatv.com</a>
+    </section>
+  </div>
+
+</main>
+<footer>
+  <img src="assets/mark.webp" width="171" height="237" alt="" loading="lazy">
+  © 2026 Baumshell Media · Georgia, USA
+</footer>
+</body>
+</html>
